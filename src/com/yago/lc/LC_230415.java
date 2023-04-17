@@ -1,4 +1,4 @@
-package com.yougen.lc;
+package com.yago.lc;
 
 import java.util.ArrayList;
 import java.util.List;
