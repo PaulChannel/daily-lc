@@ -29,6 +29,7 @@ public class LC_230418 {
       this.left = left;
       this.right = right;
     }
+
     class Solution {
 
 
@@ -37,7 +38,7 @@ public class LC_230418 {
       }
 
       public int dfs(TreeNode node, int min, int max) {
-        if(node == null) {
+        if (node == null) {
           return 0;
         }
         int diff = Math.max(Math.abs(node.val - min), Math.abs(node.val - max));
