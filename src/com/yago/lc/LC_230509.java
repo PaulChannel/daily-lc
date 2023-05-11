@@ -1,16 +1,16 @@
 package com.yago.lc;
 
 /**
- * @description:
+ * @description: 2437. 有效时间的数目
  * @author: yougen.hu
  * @time: 2023/5/9 23:29
  */
 
 
-
-
 public class LC_230509 {
+
   class Solution {
+
     int res = 0;
 
     public int countTime(String time) {
