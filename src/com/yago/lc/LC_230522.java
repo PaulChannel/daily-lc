@@ -43,11 +43,11 @@ public class LC_230522 {
       }
       boolean l = dfs(root.left, sum, limit);
       boolean r = dfs(root.right, sum, limit);
-      if (l == false) {
+      if (!l) {
         root.left = null;
       }
 
-      if (r == false) {
+      if (!r) {
         root.right = null;
       }
       return l || r;
