@@ -11,9 +11,7 @@ import java.util.List;
  */
 
 public class LC_0524 {
-
   class Solution {
-
     public double frogPosition(int n, int[][] edges, int t, int target) {
       List<Integer>[] lists = new List[n + 1];
       boolean[] visited = new boolean[n + 1];
